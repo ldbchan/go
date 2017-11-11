@@ -22,11 +22,11 @@ default:
 }
 ```
 
-- switch without a condition can be used as a clean way to replace if-els
-e chains
+- switch without a condition can be used as a clean way to replace if-else chains
 
 ```go
 t := time.Now()
+
 switch {
 case t.Hour() < 12:
     fmt.Println("Good morning!")
